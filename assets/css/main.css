@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    font-family: Century Gothic;
+    font-size: 18px;
+}
+
+body {
+    text-align: center;
+    margin: 0px;
+    background-color: white;
+}
+
+/*********************************************----------------**************************************/
+/*****************************************--------HEADER------***************************************/
+/**********************************************--------------***************************************/
+header {
+    background:linear-gradient(to right,#c5c1bf,#eeb0ac);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/******************************NavBar************************/
+
+#nav-id {
+    margin: 0 70px;
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+/*******Leftnav*****/
+#left-nav {
+    float: left;
+    display: inline;
+}
+
+#left-nav ul {
+    padding-left: 0;
+}
+#left-nav ul li{
+    display: inline-block;
+}
+#left-nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+}
+#left-nav ul li a:hover{
+    transition: 1s;
+    border-bottom: 3px solid rgb(218, 37, 37);
+}
+
+/*******RightNav*****/
+#right-nav {
+    float: right;
+}
+
+#right-nav ul {
+    padding-left: 0;
+}
+#right-nav ul li{
+    display: inline-block;
+}
+
+#right-nav ul li a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 200;
+    padding-bottom: 5px;
+    border-bottom: 3px solid transparent;
+}
+#right-nav ul li a:hover{
+    transition: 1s;
+    border-bottom: 3px solid gray;
+}
+
+/******************************Welcome Block************************/
+
+#welcome-block {
+    margin-top: 150px;
+    position: absolute;
+    width: 100%;
+    padding: 0 25px;
+    line-height: 80px;
+    color: whitesmoke;
+
+}
+
+#welcome-block h1 {
+    font-size: 350%;
+    margin: 20px;
+}
+
+#special-font {
+    font-size: 150%;
+    color: rgb(218, 37, 37);
+    line-height: 30px;
+}
+
+#special-font2 {
+    font-size: 105%;
+    padding-top: 20px;
+}
+
+#welcome-block p {
+    line-height: 30px;
+    padding: 0 250px;
+}
+
+/*********************************************----------------**************************************/
+/*****************************************--------Section 2------***************************************/
+/**********************************************--------------***************************************/
+
+#section2 {
+    background-image: url('../img/sec2back.jpg');
+    color: black;
+    padding-top: 50px;
+    padding: 50px 50px;
+    text-align: left;
+}
+
+#section2 h2 {
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 7px;
+    margin-top: 0px;
+    margin-right: 80%;
+    font-size: 180%;
+    border-bottom: 4px solid rgb(218, 37, 37);
+}
+
+#section2 p {
+    padding-left: 25px;
+    padding-right: 40%;
+    line-height: 30px;
+}
+
+#boxes {
+    padding: 10px 75px;
+}
+
+.box {
+    box-shadow: 1px 4px 10px grey;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px 30px;
+}
+
+.box-top {
+    padding: 15px 30px;
+    font-size: 140%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: rgb(218, 37, 37);
+
+}
+
+.box-bottom {
+    padding: 10px 30px;
+}
+
+#section3 {
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 450px;
+    padding: 0 50px;
+    text-align: right;
+    background-color: white;
+}
+/* #sec3-text{
+float: right;
+display: inline-block;
+} */
+#sec3-text p{
+    width: 50%;
+}
+#section3 h2 {
+    text-align: right;
+    padding-right: 15px;
+    padding-bottom: 7px;
+    margin-left: 80%;
+    font-size: 180%;
+    border-bottom: 4px solid rgb(218, 37, 37);
+}
+#section3 p {
+    padding-right: 25px;
+    line-height: 30px;
+    float: right;
+    margin-top: 0px; 
+}
+#s3image-id{
+    display: inline-block;
+    float: left;
+    height: auto;
+    width: 500px;   
+}
+
+#section4{
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+}
+#section4 h1{
+    margin: 0;
+}
+
+#section4f{
+    background-color: rgb(218, 37, 37);
+    color: whitesmoke;
+    text-align: center;
+}
+#section4f h1{
+    font-size: 400%;
+    padding: 50px 0px;
+}
+
+#section4s{
+    background-color: rgb(32, 31, 31);
+    color: whitesmoke;
+    text-align: center;
+}
+#section4s h1{
+    font-size: 400%;
+    padding: 50px 0px;
+}
+
+#section4t{
+    background-color: rgb(196, 196, 4);
+    color: whitesmoke;
+    text-align: center;
+}
+#section4t h1{
+    font-size: 400%;
+    padding: 50px 0px;
+}
+
+footer{
+    background-color: rgb(32, 31, 31);
+}
+footer p{
+    padding: 20px 0px;
+}
